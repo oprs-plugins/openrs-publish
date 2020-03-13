@@ -6,9 +6,7 @@ on:
 
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
-
     steps:
       - name: 'Checkout OpenOSRS'
       - run: git clone https://github.com/open-osrs/runelite --depth=1
